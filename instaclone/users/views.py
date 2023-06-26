@@ -3,5 +3,5 @@ from django.shortcuts import render
 # Create your views here.
 
 
-def request(request):
-    pass
+def users(request):
+    return render(request, 'base.html')
