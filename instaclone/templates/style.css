@@ -5,12 +5,16 @@
     --light-gray: #a8a8a8;
     --blue: #0095f6;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+html,
+body {
+    scroll-behavior: smooth;
+    background-color: #000;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Arial, sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+    display: flex;
+    width: 100vw;
 }
 
 /* Header */
