@@ -9,18 +9,15 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 18%;
-    border-bottom: 1px solid rgba(219, 219, 219, 1);
     background-color: white;
 
 }
 header .logo {
-    height: 29px;
+    height: 20px;
 
 }
 header .logo img {
-    height: 100px;
+    height: 25vh;
     object-fit: contain;
 }
 header .search-box { /*the search box*/
@@ -40,13 +37,21 @@ header .search-box input { /*input for search box*/
     color: #8e8e8e;
 }
 header nav ul{
-    list-style: none;
-    display: grid;
-    position: relative; right: 750px; top: 200px;
+    
+        list-style: none;
+        display: grid;
+        position: relative; right: 72vw; top: 20vh;
+        margin-bottom: 5vh;
+    
+    
 
 }
+@media (min-width: ) {
+    
+}
 header nav ul li { /*Navagation icons*/
-    margin-right: 20px;
+    margin-right: 20vw;
+    margin-bottom: 5vw;
 
 }
 header nav ul li:last-child { /*last item in the navagation list, the likes*/
