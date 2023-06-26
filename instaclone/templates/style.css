@@ -70,5 +70,17 @@ section { /*begging of section, more specifically stories*/
     padding: 30px 18%;
     background-color: #fafafa;
     display: flex;
-
+}
+.left-side{
+    width: 65%;
+}
+.right-side {
+    width:  35%;
+}
+.story { /*story display and border*/
+   display: flex; 
+   padding: 16px;
+   background-color: white;
+   border: 1px solid rgba(219, 219, 219, 1);
+   border-radius: 3px;
 }
