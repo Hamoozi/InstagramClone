@@ -29,5 +29,13 @@ header .search-box {
     padding: 3px 16px;
     align-items: center;
     border-radius: 8px;
-    
+}
+header .search-box input {
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(239, 239, 239,1);
+    padding-left: 10px;
+    font-size: 15px;
+    color: #8e8e8e;
 }
