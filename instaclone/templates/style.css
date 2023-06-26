@@ -84,3 +84,20 @@ section { /*begging of section, more specifically stories*/
    border: 1px solid rgba(219, 219, 219, 1);
    border-radius: 3px;
 }
+.story .stories { /*styling each story*/
+    width: 17%;
+
+}
+.story .stories a img{ /*styling story profile pic*/
+    border-radius: 50%;
+    border: 2px solid #c62d8f;
+    padding: 1px;
+    object-fit: cover;
+}
+.story .stories p{ /*styling the usernames of stories*/
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #262626; 
+}
