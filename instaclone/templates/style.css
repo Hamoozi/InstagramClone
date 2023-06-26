@@ -41,7 +41,8 @@ header .search-box input { /*input for search box*/
 }
 header nav ul{
     list-style: none;
-    display: flex;
+    display: grid;
+    position: relative; right: 750px; top: 200px;
 
 }
 header nav ul li { /*Navagation icons*/
