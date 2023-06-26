@@ -19,3 +19,15 @@ header .logo {
     height: 29px;
 
 }
+header .logo img {
+    height: 100px;
+    object-fit: contain;
+}
+header .search-box {
+    width: 250px;
+    background-color: rgba(239, 239, 239,1);
+    padding: 3px 16px;
+    align-items: center;
+    border-radius: 8px;
+    
+}
