@@ -10,13 +10,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding-left: 10px;
     border-bottom: 1px solid rgba(219, 219, 219, 1);
     background-color: white;
 
 }
 header .logo {
-    height: 29px;
+    height: 10px;
 
 }
 header .logo img {
