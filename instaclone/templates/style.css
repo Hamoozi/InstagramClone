@@ -48,7 +48,7 @@ header nav ul li { /*Navagation icons*/
     margin-right: 20px;
 
 }
-header nav ul li:last-child { /*last time in the navagation list, the likes*/
+header nav ul li:last-child { /*last item in the navagation list, the likes*/
     margin-right: 0;
 
 }
@@ -60,7 +60,15 @@ header nav ul li a img { /*profile pic*/
 }
 header nav ul li a i{ /*the indiviual icons's styles*/
     font-size: 22px;
-    color: rgba(38,38,38,1);
-    
+    color: rgba(38,38,38,1); 
+}
+
+
+/*Body Section*/
+
+section { /*begging of section, more specifically stories*/
+    padding: 30px 18%;
+    background-color: #fafafa;
+    display: flex;
 
 }
