@@ -29,6 +29,16 @@ body { /* basic setup for body of website*/
     justify-content: space-between;
 }
 
+.upper-container { /*upper section of left side, where actual navagation icons will be*/
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*align-items: center;*/
+    gap: 1rem;
+    padding: 1rem;
+}
+
 /* Header */
 header {
     display: flex;
