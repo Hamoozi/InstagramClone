@@ -39,6 +39,11 @@ body { /* basic setup for body of website*/
     padding: 1rem;
 }
 
+.logo { /*Instagram logo*/
+    width: 100px;
+    margin: 1rem 0rem;
+}
+
 /* Header */
 header {
     display: flex;
