@@ -1,26 +1,62 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+:root { /* root variables for colors*/
+    --white: #f5f5f5;
+    --black: #000;
+    --gray: #262626;
+    --light-gray: #a8a8a8;
+    --blue: #0095f6;
+}
+html,
+body { /* basic setup for body of website*/
+    scroll-behavior: smooth;
+    background-color: var(--black);
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Arial, sans-serif;
+    color: var(--white);
+    overflow-x: hidden;
+    display: flex;
+    width: 100vw;
+    margin: 0px;
+}
+
+.sidebar { /*styling for the left navagation area*/
+    /*background-color: var(--white);*/
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    border-right: 1px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper-container { /*upper section of left side, where actual navagation icons will be*/
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*align-items: center;*/
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.logo { /*Instagram logo*/
+    width: 100px;
+    margin: 1rem 0rem;
 }
 
 /* Header */
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 18%;
-    border-bottom: 1px solid rgba(219, 219, 219, 1);
     background-color: white;
 
 }
 header .logo {
-    height: 29px;
+    height: 20px;
 
 }
 header .logo img {
-    height: 100px;
+    height: 25vh;
     object-fit: contain;
 }
 header .search-box { /*the search box*/
@@ -40,13 +76,18 @@ header .search-box input { /*input for search box*/
     color: #8e8e8e;
 }
 header nav ul{
-    list-style: none;
-    display: grid;
-    position: relative; right: 750px; top: 200px;
+    
+        list-style: none;
+        display: grid;
+        position: relative; right: 72vw; top: 20vh;
+        margin-bottom: 5vh;
+    
+    
 
 }
 header nav ul li { /*Navagation icons*/
-    margin-right: 20px;
+    margin-right: 20vw;
+    margin-bottom: 5vw;
 
 }
 header nav ul li:last-child { /*last item in the navagation list, the likes*/
