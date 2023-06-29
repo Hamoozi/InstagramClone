@@ -43,6 +43,10 @@ body { /* basic setup for body of website*/
     padding: 1rem;
 }
 
+.bottom-container {
+    padding: 1rem;
+}
+
 .logo { /*Instagram logo*/
     width: 100px;
     margin: 1rem 0rem;
@@ -58,6 +62,29 @@ body { /* basic setup for body of website*/
 
 .link i { /*space between icon and text of navigation*/
     margin-right: 10px;
+}
+
+@media screen and (max-width: 900px) { /*media query for less than 900px*/
+    /*allows for items on website to still look correct even at smaller browser sizes*/
+    .sidebar {
+        width: 60px;
+    }
+    .upper-container{
+        align-items: center;
+    }
+    .link a{
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+
+    .logo2 {
+        display: block;
+        width: 1rem;
+        margin: 1rem 0rem;
+        margin-left: -15rem;
+    }
 }
 
 
