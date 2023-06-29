@@ -39,7 +39,7 @@ body { /* basic setup for body of website*/
     justify-content: flex-start;
     flex-direction: column;
     /*align-items: center;*/
-    gap: 1rem;
+    gap: .15rem;
     padding: 1rem;
 }
 
@@ -60,102 +60,4 @@ body { /* basic setup for body of website*/
     margin-right: 10px;
 }
 
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
 
-}
-header .logo {
-    height: 20px;
-
-}
-header .logo img {
-    height: 25vh;
-    object-fit: contain;
-}
-header .search-box { /*the search box*/
-    width: 250px;
-    background-color: rgba(239, 239, 239,1);
-    padding: 3px 16px;
-    align-items: center;
-    border-radius: 8px;
-}
-header .search-box input { /*input for search box*/
-    height: 30px;
-    border: none;
-    outline: none;
-    background-color: rgba(239, 239, 239,1);
-    padding-left: 10px;
-    font-size: 15px;
-    color: #8e8e8e;
-}
-header nav ul{
-    
-        list-style: none;
-        display: grid;
-        position: relative; right: 72vw; top: 20vh;
-        margin-bottom: 5vh;
-    
-    
-
-}
-header nav ul li { /*Navagation icons*/
-    margin-right: 20vw;
-    margin-bottom: 5vw;
-
-}
-header nav ul li:last-child { /*last item in the navagation list, the likes*/
-    margin-right: 0;
-
-}
-header nav ul li a img { /*profile pic*/
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-header nav ul li a i{ /*the indiviual icons's styles*/
-    font-size: 22px;
-    color: rgba(38,38,38,1); 
-}
-
-
-/*Body Section*/
-
-section { /*begging of section, more specifically stories*/
-    padding: 30px 18%;
-    background-color: #fafafa;
-    display: flex;
-}
-.left-side{
-    width: 65%;
-}
-.right-side {
-    width:  35%;
-}
-.story { /*story display and border*/
-   display: flex; 
-   padding: 16px;
-   background-color: white;
-   border: 1px solid rgba(219, 219, 219, 1);
-   border-radius: 3px;
-}
-.story .stories { /*styling each story*/
-    width: 17%;
-
-}
-.story .stories a img{ /*styling story profile pic*/
-    border-radius: 50%;
-    border: 2px solid #c62d8f;
-    padding: 1px;
-    object-fit: cover;
-}
-.story .stories p{ /*styling the usernames of stories*/
-    width: 90%;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    color: #262626; 
-}
