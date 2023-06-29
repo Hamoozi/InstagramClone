@@ -83,7 +83,12 @@ body { /* basic setup for body of website*/
         display: block;
         width: 1rem;
         margin: 1rem 0rem;
-        margin-left: -15rem;
+        margin-left: -5rem;
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: center;
     }
 }
 
