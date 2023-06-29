@@ -31,6 +31,8 @@ a { /* styling of text of navigation buttons*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--black);
+    z-index: 1000;
 }
 
 .upper-container { /*upper section of left side, where actual navagation icons will be*/
@@ -63,9 +65,21 @@ a { /* styling of text of navigation buttons*/
 .link i { /*space between icon and text of navigation*/
     margin-right: 10px;
 }
-.bottom-navbar {
-    display: none;
+
+.bottom-navbar { /*the bottom navigation bar used for when screen is less than 600px*/
+    display: none; /*makes sure the nav bar is not shown by default*/
 }
+
+.main-container { /* intial styling of the story bar & posts/account info & recommended*/
+    width: 70vw;
+    display: block;
+    background-color: #fff;
+    margin-left: auto;
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden; 
+}
+
 @media screen and (max-width: 900px) { /*media query for less than 900px*/
     /*allows for items on website to still look correct even at smaller browser sizes*/
     .sidebar {
@@ -94,7 +108,7 @@ a { /* styling of text of navigation buttons*/
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { /*allows for bottom nav bar to be shown*/
     .sidebar{
         display: none;
     }
