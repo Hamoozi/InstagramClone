@@ -17,10 +17,10 @@ body { /* basic setup for body of website*/
     width: 100vw;
     margin: 0px;
 }
- a { /* styling of text of navigation buttons*/
+a { /* styling of text of navigation buttons*/
     color: var(--white);
     text-decoration: none;
- }
+}
 
 .sidebar { /*styling for the left navagation area*/
     /*background-color: var(--white);*/
@@ -92,6 +92,7 @@ body { /* basic setup for body of website*/
         display: flex;
         justify-content: center;
     }
+}
 
 @media screen and (max-width: 600px) {
     .sidebar{
@@ -100,16 +101,15 @@ body { /* basic setup for body of website*/
     .bottom-navbar {
         position: fixed;
         bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 1rem;
+        width: 90vw;
+        padding: 1rem 0rem;
         display: flex;
         justify-self: space-between;
         align-items: center;
         border-top: 1px solid var(--gray);
         height: 24px;
+        padding: 1rem;
     }
-}
 }
 
 
