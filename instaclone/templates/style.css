@@ -73,11 +73,22 @@ a { /* styling of text of navigation buttons*/
 .main-container { /* intial styling of the story bar & posts/account info & recommended*/
     width: 70vw;
     display: block;
-    background-color: #fff;
     margin-left: auto;
     min-height: 100vh;
     height: auto;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.story-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%
 }
 
 @media screen and (max-width: 900px) { /*media query for less than 900px*/
