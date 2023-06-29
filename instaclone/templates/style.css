@@ -80,7 +80,7 @@ a { /* styling of text of navigation buttons*/
     display: flex;
     justify-content: space-between;
 }
-.story-post-container {
+.story-post-container { /*the inital styling for the container that will hold stories and posts*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,6 +90,7 @@ a { /* styling of text of navigation buttons*/
     height: 100vh;
     width: 100%
 }
+
 
 @media screen and (max-width: 900px) { /*media query for less than 900px*/
     /*allows for items on website to still look correct even at smaller browser sizes*/
@@ -136,5 +137,21 @@ a { /* styling of text of navigation buttons*/
         padding: 1rem;
     }
 }
+
+.story { /*styling for the entire story (profile pic and username)*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, san-serif;
+}
+
+.story p { /*styling of the story poster usernames*/
+    margin: .5rem 0rem;
+    font-size: .65rem;
+    text-align: center;
+}
+
+
 
 
