@@ -205,7 +205,7 @@ a { /* styling of text of navigation buttons*/
     margin-bottom: 10px;
 }
 
-.post-info-flex { /* low area with caption and likes etc*/
+.post-info-flex { /* the div with username, profile pic, and time since posted*/
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -215,6 +215,24 @@ a { /* styling of text of navigation buttons*/
 .post-info-flex ul { /* the middle dot between the username and time since posted*/
     padding-left: .5rem;
     color: var(--light-gray);
+}
+
+.profile-pic { /*profile pic in upper section*/
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-info-flex p {
+    font-size: .7rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.list-time { /*the time since posted*/
+    font-size: .7rem;
+    margin: 0;
 }
 
 
