@@ -183,5 +183,38 @@ a { /* styling of text of navigation buttons*/
     gap: .5rem;
 }
 
+.post-component { /* intital styling of where the insta posts will be going, underneath stories*/
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;*/
+    align-items: center;
+    width: 50vw;
+    padding: 1rem 0rem;
+}
+
+.post { /* actual post*/
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.post-header { /* upper area with username etc*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.post-info-flex { /* low area with caption and likes etc*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+}
+
+.post-info-flex ul { /* the middle dot between the username and time since posted*/
+    padding-left: .5rem;
+    color: var(--light-gray);
+}
 
 
