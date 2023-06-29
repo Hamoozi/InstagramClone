@@ -86,11 +86,19 @@ a { /* styling of text of navigation buttons*/
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: #fff;
-    height: 100vh;
+    /*height: 100vh;*/
     width: 100%
 }
 
+.profile-suggestions { /* suggestions for who to follow*/
+    width: 30%;
+}
+
+@media screen and (max-width: 1100px) { /* media query for less than 1100px*/
+    .profile-suggestions {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 900px) { /*media query for less than 900px*/
     /*allows for items on website to still look correct even at smaller browser sizes*/
@@ -118,11 +126,18 @@ a { /* styling of text of navigation buttons*/
         display: flex;
         justify-content: center;
     }
+    .main-container {
+        width: 100vw;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 600px) { /*allows for bottom nav bar to be shown*/
     .sidebar{
         display: none;
+    }
+    .stories-container, .post-component {
+        width: 90vw;
     }
     .bottom-navbar {
         position: fixed;
@@ -135,6 +150,8 @@ a { /* styling of text of navigation buttons*/
         border-top: 1px solid var(--gray);
         height: 24px;
         padding: 1rem;
+        background-color: var(--black);
+        z-index: 1000;
     }
 }
 
@@ -261,6 +278,11 @@ a { /* styling of text of navigation buttons*/
 
 .comments { /* "view all comments"*/
     color: var(--light-gray);
+}
+
+.post-icons:hover{ /*adds effect when hover over the like, comment, send, save w/ cursor*/
+    opacity: .5;
+    cursor: pointer;
 }
 
 
