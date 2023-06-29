@@ -17,6 +17,10 @@ body { /* basic setup for body of website*/
     width: 100vw;
     margin: 0px;
 }
+ a { /* styling of text of navigation buttons*/
+    color: var(--white);
+    text-decoration: none;
+ }
 
 .sidebar { /*styling for the left navagation area*/
     /*background-color: var(--white);*/
@@ -42,6 +46,18 @@ body { /* basic setup for body of website*/
 .logo { /*Instagram logo*/
     width: 100px;
     margin: 1rem 0rem;
+}
+
+.link { /*styling of navigation icons*/
+    display: flex;
+    align-items: center;
+    padding: .7rem 0;
+    color: var(--white);
+    font-size: .8rem;
+}
+
+.link i { /*space between icon and text of navigation*/
+    margin-right: 10px;
 }
 
 /* Header */
