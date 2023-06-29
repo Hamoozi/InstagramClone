@@ -136,8 +136,13 @@ a { /* styling of text of navigation buttons*/
     .sidebar{
         display: none;
     }
+
     .stories-container, .post-component {
         width: 90vw;
+    }
+    .post-component {
+        width: 90vw !important;
+        padding: 0rem 0rem !important;
     }
     .bottom-navbar {
         position: fixed;
