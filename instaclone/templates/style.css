@@ -162,14 +162,25 @@ a { /* styling of text of navigation buttons*/
         circle at 30% 107%,
         #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%
     );
+    padding: 2px;
 }
 
-.gradient-border img { /*making sure image is over border*/
+.gradient-border img { /* image over the border*/
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
     border: 1px solid var(--black);
+}
+
+.stories-container { /*the containers of stories*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    padding: 0rem 0rem;
+    overflow-x: auto;
+    gap: .5rem;
 }
 
 
