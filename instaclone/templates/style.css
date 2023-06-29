@@ -254,4 +254,14 @@ a { /* styling of text of navigation buttons*/
     align-items: center;
 }
 
+.likes, .caption, .comments { /* stylig for the likes, caption, and username of poster*/
+    margin: .35rem 0;
+    font-size: .8rem;
+}
+
+.comments { /* "view all comments"*/
+    color: var(--light-gray);
+}
+
+
 
