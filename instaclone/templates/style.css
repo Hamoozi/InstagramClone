@@ -152,7 +152,7 @@ a { /* styling of text of navigation buttons*/
     text-align: center;
 }
 
-.gradient-border { //*the colors around the profile pics on stories*/
+.gradient-border { /* the colors around the profile pics on stories*/
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -221,7 +221,7 @@ a { /* styling of text of navigation buttons*/
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: cover; /*keeps aspect ratio consistent*/
 }
 
 .post-info-flex p {
@@ -233,6 +233,25 @@ a { /* styling of text of navigation buttons*/
 .list-time { /*the time since posted*/
     font-size: .7rem;
     margin: 0;
+}
+
+.post-img{ /* the posted pic*/
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.post-icons { /* likes, comment, send, and save*/
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.post-icons-left { /* the likes, comments, and send stay together*/
+    display: flex;
+    justify-content: flex-start;
+    gap: .35rem;
+    align-items: center;
 }
 
 
