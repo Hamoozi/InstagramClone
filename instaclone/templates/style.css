@@ -327,6 +327,10 @@ a { /* styling of text of navigation buttons*/
     font-size: .8rem;
     font-weight: 500;
 }
+.switch:hover{ /*changes color of switch when hovering over*/
+    color: var(--white);
+    cursor: pointer;
+}
 
 .profile-div {
     display: flex;
@@ -337,7 +341,7 @@ a { /* styling of text of navigation buttons*/
     margin: 0 auto;
 }
 
-.profile-list { 
+.profile-list { /*unorder lists of links after suggestions*/
     font-weight: 400;
     display: flex;
     justify-content: flex-start;
@@ -361,6 +365,7 @@ a { /* styling of text of navigation buttons*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1rem 0rem;
 }
 
 
