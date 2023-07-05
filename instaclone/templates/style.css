@@ -31,54 +31,20 @@ a { /* styling of text of navigation buttons*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--black);
-    z-index: 1000;
-}
-
-.upper-container { /*upper section of left side, where actual navagation icons will be*/
-
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    /*align-items: center;*/
-    gap: .15rem;
-    padding: 1rem;
-}
-
-.bottom-container {
-    padding: 1rem;
-}
-
-.logo { /*Instagram logo*/
-    width: 100px;
-    margin: 1rem 0rem;
-}
-
-.link { /*styling of navigation icons*/
-    display: flex;
-    align-items: center;
-    padding: .7rem 0;
-    color: var(--white);
-    font-size: .8rem;
-}
+    background-color: white;
 
 .link i { /*space between icon and text of navigation*/
     margin-right: 10px;
 }
+header .logo {
+    height: 20px;
 
 .bottom-navbar { /*the bottom navigation bar used for when screen is less than 600px*/
     display: none; /*makes sure the nav bar is not shown by default*/
 }
-
-.main-container { /* intial styling of the story bar & posts/account info & recommended*/
-    width: 80vw;
-    display: block;
-    margin-left: auto;
-    min-height: 100vh;
-    height: auto;
-    overflow-x: hidden;
-    display: flex;
-    justify-content: space-between;
+header .logo img {
+    height: 500px;
+    object-fit: contain;
 }
 .story-post-container { /*the inital styling for the container that will hold stories and posts*/
     display: flex;
@@ -369,3 +335,6 @@ a { /* styling of text of navigation buttons*/
 }
 
 
+}
+
+}
