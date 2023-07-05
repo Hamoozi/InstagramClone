@@ -9,18 +9,15 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 18%;
-    border-bottom: 1px solid rgba(219, 219, 219, 1);
     background-color: white;
 
 }
 header .logo {
-    height: 29px;
+    height: 20px;
 
 }
 header .logo img {
-    height: 100px;
+    height: 500px;
     object-fit: contain;
 }
 header .search-box { /*the search box*/
@@ -102,3 +99,4 @@ section { /*begging of section, more specifically stories*/
     text-overflow: ellipsis;
     color: #262626; 
 }
+
