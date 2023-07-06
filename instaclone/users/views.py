@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def users(request):
-    return render(request, 'base.html')
+    return render(request, 'index.html')

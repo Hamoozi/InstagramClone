@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fafafa;
+      border-bottom: 1px solid #dbdbdb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    header img {
+      height: 30px;
+    }
+    header input[type="text"] {
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+      padding: 5px 10px;
+    }
+    main {
+      padding: 20px;
+    }
+    .stories {
+      display: flex;
+      overflow-x: scroll;
+    }
+    .story {
+      width: 80px;
+      margin-right: 10px;
+    }
+    .story img {
+      width: 100%;
+      border-radius: 50%;
+    }
+    .post {
+      border: 1px solid #dbdbdb;
+      margin-top: 20px;
+    }
+    .post-header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+    .post-header img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .post-image img {
+      width: 100%;
+    }
+    .post-actions {
+      padding: 10px;
+    }
+    .post-actions img {
+      height: 25px;
+      margin-right: 10px;
+    }
+    .post-likes {
+      font-weight:bold; 
+      margin-left :10px
+     }
+     footer{
+       text-align:center; 
+       color:#999; 
+       font-size :12px; 
+       padding :10px
+     }
+ 
+    
+   </style>
+</head>
+<body>
+  <header>
+    <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram logo">
+    <input type="text" placeholder="Search">
+  </header>
+  <main>
+    <div class="stories">
+      <div class="story">
+        <img src="https://picsum.photos/80/80?random=1" alt="Story">
+        <p>Story</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/80/80?random=2" alt="Story">
+        <p>Story</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/80/80?random=3" alt="Story">
+        <p>Story</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/80/80?random=4" alt="Story">
+        <p>Story</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/80/80?random=5" alt="Story">
+        <p>Story</p>
+      </div>
+    </div>
+    <div class="post">
+      <div class="post-header">
+        <img src="https://picsum.photos/30/30?random=1" alt="Profile picture">
+        <p>Username</p>
+      </div>
+      <div class="post-image">
+        <img src="https://picsum.photos/600/600?random=1" alt="Post image">
+      </div>
+      <div class="post-actions">
+        <img src="https://image.flaticon.com/icons/svg/25/25424.svg" alt="Like icon">
+        <img src="https://image.flaticon.com/icons/svg/25/25663.svg" alt="Comment icon">
+        <img src="https://image.flaticon.com/icons/svg/54/54917.svg" alt="Share icon">
+      </div>
+      <p class="post-likes">100 likes</p>
+    </div>
+    <footer>© Instagram from Facebook</footer>
+  </main>
+</body>
+</html>
